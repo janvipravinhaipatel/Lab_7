@@ -14,7 +14,8 @@ public class App
             Output = "Fizz";
         else if (a%5==0)
             Output="Buzz";
-
+        else
+            Output = String.valueOf(a);
         return Output;
     }
     public static void main( String[] args )
